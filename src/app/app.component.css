@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.toolbar {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.toolbar h1 {
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.canvas {
+  flex-grow: 1;
+  background-color: #ffffff;
+}
